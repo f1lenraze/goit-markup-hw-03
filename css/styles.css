@@ -1,0 +1,266 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.page-logo .studio {
+    color: #2e2f42;
+}
+
+.page-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.page-nav .link {
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts ul {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts .link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: #404bbf;
+}
+.section-hero {
+    background-color: #2e2f42;
+    padding: 188px 0;
+    text-align: center;
+}
+
+.page-title {
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin: 0 auto 48px;
+    max-width: 496px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.section-title {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list li {
+    width: calc((100% - 72px) / 4);
+}
+
+.features-list .title {
+    color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.features-list .text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.section-workers {
+    background-color: #f4f4fd;
+}
+
+.workers-list {
+    display: flex;
+    gap: 24px;
+}
+
+.workers-list li {
+    width: calc((100% - 72px) / 4);
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+}
+
+.workers-list .title {
+    color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.workers-list .text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.section-portfolio {
+    padding: 120px 0;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.portfolio-list li {
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-list .title {
+    color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.portfolio-list .text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer .page-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer .page-logo .studio {
+    color: #f4f4fd;
+}
+
+.footer .text {
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
