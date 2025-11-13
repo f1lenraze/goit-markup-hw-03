@@ -1,4 +1,4 @@
-/* === Reset === */
+
 *,
 *::before,
 *::after {
@@ -331,6 +331,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 16px;
 }
 
 .footer-social {
@@ -376,7 +377,7 @@ a {
 .footer-icon {
     width: 24px;
     height: 24px;
-    fill: var(--icon-color, #f4f4fd);
+    fill: var(#f4f4fd);
 }
 .footer .page-logo .studio {
     color: #f4f4fd;
