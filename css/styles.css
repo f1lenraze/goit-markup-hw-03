@@ -412,6 +412,9 @@ a {
 .footer .page-logo .studio {
     color: #f4f4fd;
 }
+.footer .logo-accent {
+    color:#f4f4fd
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
