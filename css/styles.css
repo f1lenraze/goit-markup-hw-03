@@ -201,6 +201,12 @@ a {
     line-height: 1.2;
     font-weight: 500;
 }
+.feature-text
+.team-role
+.portfolio-type {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .section-team {
     padding: 120px 0;
     background-color: #f4f4fd;
@@ -332,7 +338,7 @@ a {
     color: #434455;
 }
 
-.page-footer {
+.footer {
     background-color: #2e2f42;
     padding: 100px 0;
 }
