@@ -441,3 +441,10 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.feature-title,
+.team-title,
+.team-name,
+.portfolio-title,
+.portfolio-name {
+    letter-spacing: 0.02em;
+}
