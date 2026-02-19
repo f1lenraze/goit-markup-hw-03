@@ -344,7 +344,9 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+.portfolio-title{
+    margin-bottom: 72px;
+}
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
